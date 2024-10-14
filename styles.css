@@ -12,8 +12,11 @@
 h1 {
     margin-top: 0;
 }
+
+  
 html {
     scroll-snap-type: y mandatory;
+
 
 }
 .section {
@@ -23,7 +26,8 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;    
+    margin: 0;
+
 }
 header {
     display: flex;
@@ -33,7 +37,7 @@ header {
     padding: 15vw 10vw 15vw 10vw;
     align-items: center;
     text-align: center;
-    background-image: url(/asset/bg.jpg);
+    background-image: url(/asset/bg.webp);
 }
 header h3 {
     margin-top: 20vw;
