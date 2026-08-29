@@ -3,82 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MangoPuka Megatree</title>
+    <title>MangoPuka Megatree | TCG &amp; Collectables Shop</title>
+    <meta name="description" content="MangoPuka Megatree offers a variety of the latest Trading Card Games and Collectables — Pokemon TCG, One Piece TCG, and live auctions. Highly rated by our buyers.">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="MangoPuka Megatree | TCG &amp; Collectables Shop">
+    <meta property="og:description" content="Latest Trading Card Games and Collectables — Pokemon TCG, One Piece TCG, and live auctions. Highly rated by our buyers.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://mangopukamegatree.netlify.app/">
+    <meta property="og:image" content="https://mangopukamegatree.netlify.app/asset/mangopuka.jpg">
+    <meta property="og:site_name" content="MangoPuka Megatree">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="icon" href="/asset/mangopuka.jpg">
-
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="asset/mangopuka.jpg">
+    <link rel="apple-touch-icon" href="asset/mangopuka.jpg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "OnlineStore",
+        "name": "MangoPuka Megatree",
+        "description": "Latest Trading Card Games and Collectables — Pokemon TCG, One Piece TCG, and live auctions.",
+        "sameAs": [
+            "https://shopee.vn/mpmegatree",
+            "https://www.facebook.com/profile.php?id=61568622609577",
+            "https://www.youtube.com/@tiem62tcg"
+        ]
+    }
+    </script>
     <script defer src="app.js"></script>
 </head>
 <body>
-    <header class="section">
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+    <nav class="site-nav" aria-label="Primary navigation" data-i18n-aria="ariaNav">
+        <a class="site-nav-brand" href="#top">MangoPuka</a>
+        <ul>
+            <li><a href="#section1" data-i18n="navAbout">About</a></li>
+            <li><a href="#section2" data-i18n="navReviews">Reviews</a></li>
+            <li><a href="#section3" data-i18n="navShop">Shop</a></li>
+            <li><a href="#section4" data-i18n="navLive">Live</a></li>
+            <li><a href="#section5" data-i18n="navVideos">Videos</a></li>
+        </ul>
+        <button class="lang-toggle" type="button" aria-label="Switch language to Vietnamese" data-i18n-aria="ariaLangToggle">VI</button>
+    </nav>
+
+    <header class="section" id="top">
         <div class="nav-logo">
-            <img  rel="preload" src="/asset/mangopuka.jpg">
+            <img src="asset/mangopuka.jpg" alt="MangoPuka Megatree logo" width="960" height="956" fetchpriority="high" decoding="async">
             <h1>MangoPuka Megatree</h1>
         </div>
-        <h3>Scroll down to discover!</h3>
-        <img src="/asset/MaterialSymbolsArrowDropDownRounded.svg">
+        <h3 data-i18n="heroScroll">Scroll down to discover!</h3>
+        <a class="scroll-hint" href="#section1" aria-label="Scroll to the About section" data-i18n-aria="ariaScrollHint">
+            <img src="asset/MaterialSymbolsArrowDropDownRounded.svg" alt="Scroll down arrow" width="24" height="24" decoding="async">
+        </a>
     </header>
 
-    <div class="body-content">
-        <div class="content" id="section1">
-            <p>
-                Here at MangoPuka Megatree, we aim to offer our customers a variety of the latest Trading Card Games and Collectables.</p>
+    <main class="body-content" id="main">
+        <div class="container">
+            <div class="content" id="section1">
+                <p data-i18n="about">
+                    Here at MangoPuka Megatree, we aim to offer our customers a variety of the latest Trading Card Games and Collectables.</p>
 
-            <img width="40%" src="/asset/section1.jpg">
-        </div>
-
-        <div class="content" id="section2">
-            <div class="content-gallery">
-                <img src="/asset/fb1.png">
-                <img src="/asset/fb2.png">
-                <img src="/asset/fb3.png">
-                <img src="/asset/fb4.png">
+                <img src="asset/section1.webp" alt="MangoPuka Megatree products display" loading="lazy" width="1536" height="2048" decoding="async">
             </div>
 
-            <p>We are highly rated by our buyers</p>
-        </div>
-
-        <div class="content" id="section3">
-
-            <div class="content-services">
-                <div class="content-services-content">
-                    <img width="75%" src="/asset/pokemon.png">
-                    <p>Pokemon TCG</p>
+            <div class="content" id="section2">
+                <div class="content-gallery">
+                    <div class="review-card">
+                        <img src="asset/fb1.webp" alt="Buyer review one" loading="lazy" width="676" height="104" decoding="async">
+                    </div>
+                    <div class="review-card">
+                        <img src="asset/fb2.webp" alt="Buyer review two" loading="lazy" width="674" height="102" decoding="async">
+                    </div>
+                    <div class="review-card">
+                        <img src="asset/fb3.webp" alt="Buyer review three" loading="lazy" width="676" height="127" decoding="async">
+                    </div>
+                    <div class="review-card">
+                        <img src="asset/fb4.webp" alt="Buyer review four" loading="lazy" width="662" height="82" decoding="async">
+                    </div>
                 </div>
 
-                <div class="content-services-content">
-                    <img width="70%" src="/asset/onepiece.png">
-                    <p>One Piece TCG</p>
+                <h2 class="rating">
+                    <span aria-hidden="true">★★★★★</span>
+                    <span data-i18n="ratingText">We are highly rated by our buyers</span>
+                </h2>
+            </div>
+
+            <div class="content" id="section3">
+                <h2 data-i18n="offerTitle">What we offer</h2>
+
+                <div class="content-services">
+                    <div class="content-services-content">
+                        <img src="asset/pokemon.webp" alt="Pokemon TCG logo" loading="lazy" width="631" height="894" decoding="async">
+                        <p>Pokemon TCG</p>
+                    </div>
+
+                    <div class="content-services-content">
+                        <img src="asset/onepiece.webp" alt="One Piece TCG logo" loading="lazy" width="727" height="967" decoding="async">
+                        <p>One Piece TCG</p>
+                    </div>
+
+                    <div class="content-services-content">
+                        <img src="asset/bidding.webp" alt="Auctions illustration" loading="lazy" width="614" height="810" decoding="async">
+                        <p data-i18n="serviceAuction">Auctions</p>
+                    </div>
                 </div>
 
-                <div class="content-services-content">
-                    <img width="83%" src="/asset/bidding.png">
-                    <p>Auctions</p>
+                <div class="cta-group">
+                    <a class="btn btn-primary" href="https://shopee.vn/mpmegatree" target="_blank" rel="noopener" data-i18n="ctaShop">Shop now!</a>
+                    <a class="btn btn-secondary" href="https://www.facebook.com/profile.php?id=61568622609577&locale=vi_VN" target="_blank" rel="noopener" data-i18n="ctaBid">Bid now!</a>
                 </div>
             </div>
-            <a href="https://shopee.vn/mpmegatree">Shop now!</a>
-            <a href="https://www.facebook.com/mangopuka?locale=vi_VN">Bid now!</a>
 
-        </div>
-
-        <div class="content" id="section4">
-            <div class="content-contact">
-                <p>Explore our Youtube channel, where we unpack extremely rare cards!</p>
-                
-                <iframe width="409.5" height="728"
-                    src="https://youtube.com/embed/vBhHhrbll3U?si=KOz8WAhFI76ahDCN"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+            <div class="content" id="section4">
+                <h2 data-i18n="liveTitle">Watch us break Pokemon packs live!</h2>
+                <p data-i18n="liveText">Tune into our Facebook livestreams where we break Pokemon packs in real time — catch rare pulls as they happen.</p>
+                <img src="asset/livestream.webp" alt="MangoPuka Megatree live Pokemon pack breaking stream" class="live-preview" loading="lazy" width="2690" height="1522" decoding="async">
+                <div class="cta-group">
+                    <a class="btn btn-primary" href="https://www.facebook.com/share/v/1DPddPJKjK/" target="_blank" rel="noopener" data-i18n="liveCtaWatch">Watch the livestream</a>
+                    <a class="btn btn-secondary" href="https://www.facebook.com/profile.php?id=61568622609577&locale=vi_VN" target="_blank" rel="noopener" data-i18n="liveCtaFollow">Follow our page</a>
+                </div>
             </div>
-            
-        </div>
-    </div>
 
+            <div class="content" id="section5">
+                <h2 data-i18n="videoTitle">Explore our YouTube channel, where we unpack extremely rare cards!</h2>
+
+                <div class="content-contact">
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://youtube.com/embed/vBhHhrbll3U?si=KOz8WAhFI76ahDCN"
+                            title="YouTube video player"
+                            loading="lazy"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a class="btn btn-secondary" href="https://www.youtube.com/@tiem62tcg" target="_blank" rel="noopener" data-i18n="visitChannel">Visit our channel</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://shopee.vn/mpmegatree" target="_blank" rel="noopener">Shopee</a>
+            <a href="https://www.facebook.com/profile.php?id=61568622609577&locale=vi_VN" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.youtube.com/@tiem62tcg" target="_blank" rel="noopener">YouTube</a>
+        </div>
+        <p>&copy; <span id="year"></span> MangoPuka Megatree. <span data-i18n="rights">All rights reserved.</span></p>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="ariaBackToTop">&uarr;</button>
 </body>
 </html>
